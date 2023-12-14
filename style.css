@@ -1,0 +1,136 @@
+/* Nav Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 60px;
+    margin: 15px auto;
+    padding-right: 80px;
+    padding-left: 40px;
+    font-family: Segoe UI;
+    color: #222222;
+}
+nav .dark-logo{
+    width: 40px;
+    height: 100%;
+}
+.dark-logo img{
+    max-height: 100%;
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9px;
+    font: 16px;
+}
+.right ul li img{
+    height: 8px;
+}
+.right ul{
+    display: flex;
+    column-gap: 35px;
+}
+
+/* For main body */
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin-top: 7vh;
+}
+/* First Section */
+main .first{
+    width: 80vw;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main .first h1{
+    font-weight: 400;
+    font-size: 48px;
+    /* background-color: red; */
+}
+main .first h3{
+    margin-top:0;
+    font-size: 24px;
+    font-weight: 400;
+    /* background-color: green; */
+    width: 74vw;
+    text-align: center;
+}
+main .first button{
+    border-radius: 5px;
+    border: none;
+    background-color: #00b6d1;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+/* Second Section */
+.second{
+    /* background-color: aqua; */
+    width: 76vw;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+.second h3{
+    font-size: 24px;
+    font-weight: 450;
+    margin-left: 30px;
+}
+.second small{
+    font-size: 14.4px;
+}
+/* For third section */
+.third{
+    margin: auto;
+    width: 78vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+.third .iteam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third .iteam *{
+    margin: 0;
+    padding: 3px;
+}
+.iteam h3{
+    font-size: 20px;
+}
+.iteam small{
+    font-size: 12px;
+}
+.buttons{
+    margin-top: 15px !important;
+}
+.buttons a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 8px 15px !important;
+    font-weight: bolder;
+}
+.green:hover{
+    background-color: rgb(92, 184, 92);
+}
+.blue:hover{
+    background-color: #048497;
+}
+.green{
+    background-color: rgb(58, 139, 58);
+}
+.blue{
+    background-color: #00aeff;
+}
